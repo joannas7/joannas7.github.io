@@ -26,6 +26,9 @@ main {
   margin-top: 10px;
   line-height: 25px;
   font-weight: 400;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 #subtitle {
