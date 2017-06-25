@@ -43,7 +43,7 @@ main {
     font-size: 24px;
     font-weight: 500px;
     line-height: 26.4px;
-    color: grey;
+    color: #808080;
   }
   p {
     font-weight: 400;
@@ -51,5 +51,17 @@ main {
       margin-left: 10px;
       float: right;
     }
+  }
+}
+
+.digital-portfolio {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-style: normal;
+  font-variant: normal;
+  h1 {
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 26.4px;
+    color: #808080;
   }
 }
