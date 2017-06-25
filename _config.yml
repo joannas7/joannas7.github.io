@@ -26,7 +26,8 @@ instagram_username: jsheaobrien
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: jekyll-theme-midnight
 gems:
   - jekyll-feed
 
