@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Joanna Shea O'Brien
+subtitle: Writing, Research and Oral History
 email: jsheaobrien@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Oral History interviewer at Our Marathon, Writer, mom, New Frontier Network
