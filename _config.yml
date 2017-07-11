@@ -16,9 +16,9 @@
 title: Joanna Shea O'Brien
 subtitle: Writing, Research and Oral History
 email: jsheaobrien@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Oral History interviewer at Our Marathon, Writer, mom, New Frontier Network
-  Steering committee Member at New Frontier JFK, and former Peace Corps Staffer.
+#description: > # this means to ignore newlines until "baseurl:"
+#  Oral History interviewer at Our Marathon, Writer, mom, New Frontier Network
+#  Steering committee Member at New Frontier JFK, and former Peace Corps Staffer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jsheaobrien
