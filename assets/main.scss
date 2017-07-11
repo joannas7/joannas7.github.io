@@ -14,12 +14,12 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 200px;
+  height: 120px;
   width: 100%;
 }
 
 main {
-  margin-bottom: 240px;
+  margin-bottom: 145px;
 }
 
 .site-title {
@@ -71,9 +71,9 @@ main {
 
 @media only screen and (max-width: 600px) {
   main {
-    margin-bottom: 290px;
+    margin-bottom: 160px;
   }
   footer {
-      height: 250px;
+      height: 140px;
   }
 }
