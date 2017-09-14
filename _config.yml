@@ -14,3 +14,7 @@ instagram_username: jsheaobrien
 
 # Build Settings
 markdown: kramdown
+
+# Pluggins
+plugins:
+ - jekyll-coffeescript
