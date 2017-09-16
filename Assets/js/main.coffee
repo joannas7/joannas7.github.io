@@ -1,4 +1,4 @@
 ---
 ---
 
-console.log("Test")
+$(document).ready ->
