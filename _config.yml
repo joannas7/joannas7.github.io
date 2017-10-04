@@ -21,3 +21,7 @@ plugins:
 
 sass:
   sass_dir: assets/css
+
+exclude:
+ - README.md,
+ - "*.psd"
