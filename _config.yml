@@ -24,4 +24,4 @@ sass:
 
 exclude:
  - README.md
- - *.psd
+ - "*.psd"
