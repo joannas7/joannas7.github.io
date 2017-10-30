@@ -1,0 +1,310 @@
+html
+  box-sizing: border-box
+  overflow-x: hidden
+
+body, html
+  color: white
+
+*, *:before, *:after
+  box-sizing: inherit
+
+.image
+  max-width: 100%
+  height: auto
+
+img
+  margin-bottom: -5px
+
+.display-container
+  position: relative
+
+.input
+  padding: 8px
+  display: block
+  border: none
+  border-bottom: 1px solid #ccc
+  width: 100%
+
+.modal
+  z-index: 3
+  display: none
+  padding-top: 100px
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  overflow: auto
+  background-color: rgb(0, 0, 0)
+  background-color: rgba(0, 0, 0, 0.4)
+
+.modal-content
+  margin: auto
+  background-color: #fff
+  position: relative
+  padding: 0
+  outline: 0
+  width: 600px
+
+.bar
+  width: 100%
+  overflow: hidden
+
+.center .bar
+  display: inline-block
+  width: auto
+
+.bar .bar-item
+  padding: 8px 16px
+  float: left
+  width: auto
+  border: none
+  outline: none
+  display: block
+
+.bar .button
+  white-space: normal
+
+.container:after, .container:before, .panel:after, .panel:before, .row:after, .row:before, .row-padding:after, .row-padding:before, .bar:before, .bar:after
+  content: ""
+  display: table
+  clear: both
+
+.col, .half, .quarter
+  float: left
+  width: 100%
+
+@media (min-width: 601px)
+  .col.m1
+    width: 8.33333%
+
+  .col.m2
+    width: 16.66666%
+
+  .col.m3, .quarter
+    width: 24.99999%
+
+  .col.m4
+    width: 33.33333%
+
+  .col.m5
+    width: 41.66666%
+
+  .col.m6, .half
+    width: 49.99999%
+
+  .col.m7
+    width: 58.33333%
+
+  .col.m8
+    width: 66.66666%
+
+  .col.m9
+    width: 74.99999%
+
+  .col.m10
+    width: 83.33333%
+
+  .col.m11
+    width: 91.66666%
+
+  .col.m12
+    width: 99.99999%
+
+.content
+  max-width: 980px
+  margin: auto
+
+.hide
+  display: none!important
+
+.show
+  display: block!important
+
+@media (max-width: 600px)
+  .modal-content
+    margin: 0 10px
+    width: auto!important
+
+  .modal
+    padding-top: 30px
+
+  .hide-small
+    display: none!important
+
+@media (max-width: 768px)
+  .modal-content
+    width: 500px
+
+  .modal
+    padding-top: 50px
+
+@media (min-width: 993px)
+  .modal-content
+    width: 900px
+
+  .hide-large
+    display: none!important
+
+@media (max-width: 992px) and (min-width: 601px)
+  .hide-medium
+    display: none!important
+
+.top, .bottom
+  position: fixed
+  width: 100%
+  z-index: 1
+  top: 0
+
+.bottom
+  bottom: 0
+
+.display-topright
+  position: absolute
+  right: 0
+  top: 0
+
+.display-middle
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+
+.round
+  border-radius: 4px
+
+.round-large
+  border-radius: 8px
+
+.row-padding,
+.row-padding>.half,
+.row-padding>.third,
+.row-padding>.twothird,
+.row-padding>.threequarter,
+.row-padding>.quarter,
+.row-padding>.col
+  padding: 0 8px
+
+.container,
+.panel
+  padding: 0.01em 16px
+
+.panel
+  margin-top: 16px
+  margin-bottom: 16px
+
+.card-2
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+
+.animate-opacity
+  animation: opac 0.8s
+
+.w3-greyscale
+  filter: grayscale(75%)
+
+@keyframes opac
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+.animate-left
+  position: absolute
+  animation: animateleft 0.4s
+
+@keyframes animateleft
+  from
+    left: -1000px
+    opacity: 0
+
+  to
+    left: 0
+    opacity: 1
+
+.animate-top
+  position: relative
+  animation: animatetop 0.4s
+
+@keyframes animatetop
+  from
+    top: -300px
+    opacity: 0
+
+  to
+    top: 0
+    opacity: 1
+
+.animate-zoom
+  animation: animatezoom 0.6s
+
+@keyframes animatezoom
+  from
+    transform: scale(0)
+
+  to
+    transform: scale(1)
+
+.opacity,
+.hover-opacity:hover
+  opacity: 0.60
+
+.hover-opacity-off:hover
+  opacity: 1
+
+.opacity-min
+  opacity: 0.75
+
+.large
+  font-size: 18px!important
+
+.xlarge
+  font-size: 24px!important
+
+.xxlarge
+  font-size: 36px!important
+
+.center
+  text-align: center!important
+
+.border
+  border: 1px solid #ccc!important
+
+.section
+  margin-top: 16px!important
+  margin-bottom: 16px!important
+
+.margin-bottom
+  margin-bottom: 16px!important
+
+.margin-right
+  margin-right: 16px!important
+
+.padding-small
+  padding: 4px 8px!important
+
+.padding-large
+  padding: 12px 24px!important
+
+.padding-16
+  padding-top: 16px!important
+  padding-bottom: 16px!important
+
+.padding-32
+  padding-top: 32px!important
+  padding-bottom: 32px!important
+
+.padding-64
+  padding-top: 64px!important
+  padding-bottom: 64px!important
+
+.right
+  float: right!important
+
+.transparent
+  background-color: transparent!important
+
+@import 'colors'
+@import 'type'
+@import 'buttons'

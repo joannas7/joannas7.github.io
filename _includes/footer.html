@@ -1,59 +1,12 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <!-- col was 2 -->
-      <div class="footer-col footer-col-5">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          {% if site.linkedin_username %}
-          <li>
-            {% include icon-linkedin.html username=site.linkedin_username %}
-          </li>
-          {% endif %}
-
-          {% if site.instagram_username %}
-          <li>
-            {% include icon-instagram.html username=site.instagram_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <!-- Old Column Removed per Request of Joanna
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-      -->
-    </div>
-
+<footer class="center bgimg-3 opacity hover-opacity-off">
+  <a href="#home" class="button light-grey"><i class="fa fa-arrow-up margin-right"></i>To the top</a>
+  <div class="xlarge section">
+    <!-- <a href="#"><i class="fa fa-facebook-official hover-opacity"></i></a> -->
+    <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank"><i class="fa fa-instagram hover-opacity social"></i></a>
+    <!-- <i class="fa fa-snapchat hover-opacity"></i> -->
+    <!-- <i class="fa fa-pinterest-p hover-opacity"></i> -->
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter hover-opacity social"></i></a>
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin hover-opacity social"></i></a>
   </div>
-
+  <p>Created by <a href="http://bradywalsh.me" title="Brady Walsh" target="_blank" class="hover-text-green">Brady Walsh</a></p>
 </footer>
