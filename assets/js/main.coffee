@@ -16,7 +16,8 @@ $ ->
 
   $('.flexslider').flexslider {
     animation: 'fade',
-    controlsContainer: '.flexslider'
+    controlsContainer: '.flexslider',
+    slideshowSpeed: 5000
   }
 
   return
