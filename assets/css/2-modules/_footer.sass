@@ -6,7 +6,7 @@ footer
     font-size: 64px !important
 
   p
-    padding-top: 32px
+    padding-top: 40px
     font-size: 12px
     a
       text-decoration: none
@@ -18,10 +18,18 @@ a
       color: black
 
 
+@media only screen and (max-width: 1242px)
+  footer
+    a
+      i
+        color: $persian-green
+    p
+      color: white
+
 @media only screen and (max-width: 360px)
   footer
     a
       i
         color: $persian-green
     p
-      color: black
+      color: $azure
