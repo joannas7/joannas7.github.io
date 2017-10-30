@@ -445,3 +445,58 @@ template {
 [hidden] {
   display: none;
 }
+
+/* FlexSlider
+   ========================================================================== */
+
+/**
+ * Added by Brady Walsh - 10/18/17 to normalize flexslider plugin
+ */
+
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  { outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flexslider a img { outline: none; border: none; }
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.flexslider .slides "&gt;" li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+*/
+
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.slides:after {
+    //content: &quot;.&quot;;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .slides { display: block; }
+* html .slides { height: 1%; }
