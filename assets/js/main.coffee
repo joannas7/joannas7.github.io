@@ -10,6 +10,7 @@ $ ->
   $('a[href$="#home"]').click ->
     if $('#navDemo').hasClass 'show'
       $('#navDemo, #myNavbar').removeClass 'show'
+    scrollToAnchor('home')
 
   # This code brings up the alternative header when scrolling down the page
   $(window).scroll ->
@@ -25,3 +26,17 @@ $ ->
     controlsContainer: '.flexslider',
     slideshowSpeed: 5000
   }
+
+  $('a[href$="about"]').click ->
+    scrollToAnchor('about')
+
+  $('a[href$="portfolio"]').click ->
+    scrollToAnchor('portfolio')
+
+  $('a[href$="connect"]').click ->
+    scrollToAnchor('connect')
+
+scrollToAnchor = (anchor) ->
+  $('html,body').animate {
+    scrollTop: $("#"+anchor).offset().top
+    }, "slow"
